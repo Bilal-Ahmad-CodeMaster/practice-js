@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+         position: relative;
+      }
+ header{
+    background-color: rgb(255, 255, 255);
+    /* position: relative; */
+ }
+ .name ,span {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+
+
+
+
+ }
+ header ul {
+    display: inline-block;
+    margin-left: 100px;
+
+
+ }
+ ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 5px 10px;
+
+ }
+ 
+ .home {
+             /* position: relative;  */
+ }
+ .dropdown{
+    background-color: rgb(234, 239, 239);
+    /* height: 200px; */
+    /* width: 500px; */
+    display: none;
+    padding: 10px;
+    position:absolute;
+    left: 100px;
+
+
+    
+
+
+    /* right: -300px; */
+
+
+
+
+
+}
+  .home:hover{
+    color: rgb(189, 178, 57);
+text-decoration: underline; }
+
+
+ 
+ .home:hover .dropdown{
+    display: block;
+
+
+ }
+
+ 
+    
+ 
+ .dropdown p{
+    display: block;
+    font-size: 10px;
+ }
+ /* .dropdown li:hover{
+background-color: rgb(84, 153, 153);
+width: 100%; */
+
+
+ 
+ .box{
+    width: 150px;
+    height: 100px;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.068);;
+    border-left: 0.5px solid rgba(0, 0, 0, 0.068);
+    vertical-align: top;
+
+    display: inline-block;
+ }
+ .box img{
+    width: 100%;
+    border-radius: 3px;
+ }
+ 
+    </style>
+</head>
+
+<body>
+    <header>
+        <p class="name">The Islamia University of Bahawalpur Pakisstan</p>
+
+        <ul >
+            <li class="home">
+                about
+                <div class="dropdown">                 
+                  <div class="box"><img src="https://www.iub.edu.pk/uploads/images/nav/about.jpg" alt=""></div>
+                  <div class="box">
+                    <p>A Vice Chancellor's Secretariat is also functioning in the IUB to extend multiple services to the Public, students, faculty members and employees of the University. As it is under the direct supervision of the Vice Chancellor, it has to form policy matters of the IUB and monitor the implementation of the same</p>
+                  </div>
+                  <div class="box"></div>
+                </div>
+             </li> 
+            <li class="home">
+                about
+                <div class="dropdown">
+                    <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                </div>
+            </li>
+            <li class="home">
+                contact
+                <div class="dropdown">
+                    <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                </div>
+            </li>
+            <li class="home">
+                <span>home</span>
+                <div class="dropdown">
+                    <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                </div>
+            </li>
+        </ul> 
+    </header>
+
+</body>
+
+</html>
